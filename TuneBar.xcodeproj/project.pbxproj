@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1038AB20EC0ABA0050027A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1038AA20EC0ABA0050027A /* Constants.swift */; };
+		6B8FC85C20ED52E0002C4EEA /* TrackStatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FC85B20ED52E0002C4EEA /* TrackStatusItem.swift */; };
+		6B8FC86120ED5F03002C4EEA /* PlayerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FC86020ED5F03002C4EEA /* PlayerListener.swift */; };
+		6B8FC86320ED6274002C4EEA /* iTunesApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FC86220ED6274002C4EEA /* iTunesApplication.swift */; };
+		6B8FC86520ED62B2002C4EEA /* iTunesTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FC86420ED62B2002C4EEA /* iTunesTrack.swift */; };
+		6B8FC86720ED6D7D002C4EEA /* TrackStatusItem+PlayerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FC86620ED6D7D002C4EEA /* TrackStatusItem+PlayerListener.swift */; };
 		6BACE1631DD66E4A001A2EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACE1621DD66E4A001A2EE9 /* AppDelegate.swift */; };
 		6BACE1651DD66E4A001A2EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BACE1641DD66E4A001A2EE9 /* Assets.xcassets */; };
-		6BACE1681DD66E4A001A2EE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BACE1661DD66E4A001A2EE9 /* MainMenu.xib */; };
-		6BACE1721DD67766001A2EE9 /* TrackStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACE1711DD67766001A2EE9 /* TrackStatus.swift */; };
+		6BACE1681DD66E4A001A2EE9 /* TrackStatusItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BACE1661DD66E4A001A2EE9 /* TrackStatusItem.xib */; };
 		6BACE1741DD6A9B8001A2EE9 /* iTunesInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACE1731DD6A9B8001A2EE9 /* iTunesInterface.swift */; };
 		6BACE1761DD6ACAA001A2EE9 /* PlayerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACE1751DD6ACAA001A2EE9 /* PlayerInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B1038AA20EC0ABA0050027A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6B8FC85B20ED52E0002C4EEA /* TrackStatusItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackStatusItem.swift; sourceTree = "<group>"; };
+		6B8FC86020ED5F03002C4EEA /* PlayerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListener.swift; sourceTree = "<group>"; };
+		6B8FC86220ED6274002C4EEA /* iTunesApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesApplication.swift; sourceTree = "<group>"; };
+		6B8FC86420ED62B2002C4EEA /* iTunesTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesTrack.swift; sourceTree = "<group>"; };
+		6B8FC86620ED6D7D002C4EEA /* TrackStatusItem+PlayerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackStatusItem+PlayerListener.swift"; sourceTree = "<group>"; };
 		6BACE15F1DD66E4A001A2EE9 /* TuneBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BACE1621DD66E4A001A2EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BACE1641DD66E4A001A2EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6BACE1671DD66E4A001A2EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6BACE1671DD66E4A001A2EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TrackStatusItem.xib; sourceTree = "<group>"; };
 		6BACE1691DD66E4A001A2EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BACE1711DD67766001A2EE9 /* TrackStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackStatus.swift; sourceTree = "<group>"; };
 		6BACE1731DD6A9B8001A2EE9 /* iTunesInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesInterface.swift; sourceTree = "<group>"; };
 		6BACE1751DD6ACAA001A2EE9 /* PlayerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,6 +47,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1038A720EC04980050027A /* iTunes */ = {
+			isa = PBXGroup;
+			children = (
+				6BACE1731DD6A9B8001A2EE9 /* iTunesInterface.swift */,
+				6B8FC86220ED6274002C4EEA /* iTunesApplication.swift */,
+				6B8FC86420ED62B2002C4EEA /* iTunesTrack.swift */,
+			);
+			path = iTunes;
+			sourceTree = "<group>";
+		};
+		6B8FC85A20ED52AA002C4EEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B8FC85B20ED52E0002C4EEA /* TrackStatusItem.swift */,
+				6B8FC86620ED6D7D002C4EEA /* TrackStatusItem+PlayerListener.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B8FC85D20ED5CBB002C4EEA /* PlayerInterface */ = {
+			isa = PBXGroup;
+			children = (
+				6BACE1751DD6ACAA001A2EE9 /* PlayerInterface.swift */,
+				6B8FC86020ED5F03002C4EEA /* PlayerListener.swift */,
+				6B1038A720EC04980050027A /* iTunes */,
+			);
+			path = PlayerInterface;
+			sourceTree = "<group>";
+		};
 		6BACE1561DD66E4A001A2EE9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +95,13 @@
 		6BACE1611DD66E4A001A2EE9 /* TuneBar */ = {
 			isa = PBXGroup;
 			children = (
-				6BACE1621DD66E4A001A2EE9 /* AppDelegate.swift */,
-				6BACE1641DD66E4A001A2EE9 /* Assets.xcassets */,
-				6BACE1661DD66E4A001A2EE9 /* MainMenu.xib */,
-				6BACE1711DD67766001A2EE9 /* TrackStatus.swift */,
-				6BACE1751DD6ACAA001A2EE9 /* PlayerInterface.swift */,
-				6BACE1731DD6A9B8001A2EE9 /* iTunesInterface.swift */,
 				6BACE1691DD66E4A001A2EE9 /* Info.plist */,
+				6BACE1661DD66E4A001A2EE9 /* TrackStatusItem.xib */,
+				6BACE1621DD66E4A001A2EE9 /* AppDelegate.swift */,
+				6B1038AA20EC0ABA0050027A /* Constants.swift */,
+				6B8FC85D20ED5CBB002C4EEA /* PlayerInterface */,
+				6B8FC85A20ED52AA002C4EEA /* View */,
+				6BACE1641DD66E4A001A2EE9 /* Assets.xcassets */,
 			);
 			path = TuneBar;
 			sourceTree = "<group>";
@@ -94,11 +133,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Colin Clark";
 				TargetAttributes = {
 					6BACE15E1DD66E4A001A2EE9 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,7 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BACE1651DD66E4A001A2EE9 /* Assets.xcassets in Resources */,
-				6BACE1681DD66E4A001A2EE9 /* MainMenu.xib in Resources */,
+				6BACE1681DD66E4A001A2EE9 /* TrackStatusItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BACE1721DD67766001A2EE9 /* TrackStatus.swift in Sources */,
+				6B8FC85C20ED52E0002C4EEA /* TrackStatusItem.swift in Sources */,
+				6B8FC86520ED62B2002C4EEA /* iTunesTrack.swift in Sources */,
+				6B1038AB20EC0ABA0050027A /* Constants.swift in Sources */,
+				6B8FC86120ED5F03002C4EEA /* PlayerListener.swift in Sources */,
+				6B8FC86320ED6274002C4EEA /* iTunesApplication.swift in Sources */,
+				6B8FC86720ED6D7D002C4EEA /* TrackStatusItem+PlayerListener.swift in Sources */,
 				6BACE1631DD66E4A001A2EE9 /* AppDelegate.swift in Sources */,
 				6BACE1761DD6ACAA001A2EE9 /* PlayerInterface.swift in Sources */,
 				6BACE1741DD6A9B8001A2EE9 /* iTunesInterface.swift in Sources */,
@@ -148,12 +193,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6BACE1661DD66E4A001A2EE9 /* MainMenu.xib */ = {
+		6BACE1661DD66E4A001A2EE9 /* TrackStatusItem.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6BACE1671DD66E4A001A2EE9 /* Base */,
 			);
-			name = MainMenu.xib;
+			name = TrackStatusItem.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -168,15 +213,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -217,15 +271,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -258,7 +321,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.TuneBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -271,7 +335,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.TuneBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -294,6 +359,7 @@
 				6BACE16E1DD66E4A001A2EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

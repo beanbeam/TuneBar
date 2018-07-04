@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14269.12"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application">
+            <connections>
+                <outlet property="delegate" destination="tVG-7K-7Bt" id="9BK-Pw-bCQ"/>
+            </connections>
+        </customObject>
+        <customObject id="tVG-7K-7Bt" customClass="AppDelegate" customModule="TuneBar" customModuleProvider="target">
+            <connections>
+                <outlet property="statusItem" destination="nai-Hc-TLz" id="h3X-nl-7PY"/>
+            </connections>
+        </customObject>
+        <customObject id="nai-Hc-TLz" customClass="TrackStatusItem" customModule="TuneBar" customModuleProvider="target">
+            <connections>
+                <outlet property="menu" destination="MSq-5x-rse" id="KsL-Tj-poe"/>
+            </connections>
+        </customObject>
+        <menu id="MSq-5x-rse">
+            <items>
+                <menuItem title="Quit TuneBar" id="0Ub-tG-Gm3" userLabel="Quit TuneBar">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-3" id="Qxc-5W-2b6"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>
